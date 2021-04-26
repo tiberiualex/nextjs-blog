@@ -1,6 +1,6 @@
-# NextJS Blog
+# Next.js Blog
 
-NextJS blog app from this [tutorial](https://egghead.io/courses/build-a-blog-with-next-js-typescript-emotion-and-netlify-adcc). Not much to see here, just trying out Next.
+Next.js blog app from this [tutorial](https://egghead.io/courses/build-a-blog-with-next-js-typescript-emotion-and-netlify-adcc). Not much to see here, just trying out Next.
 
 ## Running the app
 

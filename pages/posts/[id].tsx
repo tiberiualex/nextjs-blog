@@ -1,5 +1,5 @@
 // Absolute import, defined in tsconfig.json
-import { Article } from '@components/Article';
+import { Article, BlogpostImage } from '@components/Article';
 import type { Post } from './../index';
 import {
   GetStaticPropsContext,
@@ -15,6 +15,7 @@ export default function BlogPost({
   return (
     <Article>
       <h1>{post.title}</h1>
+      <BlogpostImage src="/image.jpeg" alt="image" />
       <p>{post.body}</p>
     </Article>
   );

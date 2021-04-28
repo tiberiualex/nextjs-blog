@@ -6,6 +6,7 @@ import {
   InferGetStaticPropsType,
   GetStaticPaths
 } from 'next';
+import Head from 'next/head';
 
 // Dynamic component
 export default function BlogPost({
@@ -14,6 +15,9 @@ export default function BlogPost({
 
   return (
     <Article>
+      <Head>
+        <title>{post.title}</title>
+      </Head>
       <h1>{post.title}</h1>
       <BlogpostImage src="/image.jpeg" alt="image" />
       <p>{post.body}</p>
